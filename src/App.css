@@ -6,6 +6,9 @@
 body {
   background-color: #000;
 }
+.App {
+  margin: 3rem 0 0 8rem;
+}
 .btn__container {
   margin-left: 2rem;
 }
@@ -25,4 +28,10 @@ h2 {
 }
 h1 {
   color: #ccc;
+}
+.icons {
+  color: #000;
+  background-color: #2281da;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
