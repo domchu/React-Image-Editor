@@ -7,6 +7,9 @@ const Button = () => {
       <h1>Image Editor</h1>
       <div className="buttons__container">
         <ButtonDetail />
+        <ButtonDetail />
+        <ButtonDetail />
+        <ButtonDetail />
       </div>
     </div>
   );

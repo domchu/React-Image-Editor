@@ -9,3 +9,13 @@ body {
 .btn__container {
   margin-left: 2rem;
 }
+.buttons__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40%;
+  border: 1px solid #ccc;
+  padding: 3rem;
+}
+#space {
+  margin: 1rem;
+}
