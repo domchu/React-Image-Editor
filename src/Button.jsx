@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonDetail from "./ButtonDetail";
+import RotateFlip from "./RotateFlip";
 
 const Button = () => {
   return (
@@ -11,6 +12,7 @@ const Button = () => {
         <ButtonDetail name="Inversion" />
         <ButtonDetail name="grayscale" />
       </div>
+      <RotateFlip />
     </div>
   );
 };
