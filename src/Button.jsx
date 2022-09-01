@@ -6,10 +6,10 @@ const Button = () => {
     <div>
       <h1>Image Editor</h1>
       <div className="buttons__container">
-        <ButtonDetail />
-        <ButtonDetail />
-        <ButtonDetail />
-        <ButtonDetail />
+        <ButtonDetail name="brightness" />
+        <ButtonDetail name="Saturation" />
+        <ButtonDetail name="Inversion" />
+        <ButtonDetail name="grayscale" />
       </div>
     </div>
   );

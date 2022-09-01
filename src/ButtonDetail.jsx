@@ -1,10 +1,10 @@
 import React from "react";
 
-const ButtonDetail = () => {
+const ButtonDetail = (props) => {
   return (
     <div className="btn__container">
       <button class="ui primary button " id="space">
-        Brightness
+        {props.name}
       </button>
       ;
     </div>
