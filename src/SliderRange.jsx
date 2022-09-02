@@ -2,8 +2,8 @@ import React from "react";
 
 const SliderRange = () => {
   return (
-    <div>
-      <h2>slider range</h2>
+    <div className="slider-range">
+      <input type="range" name="" className="slider" />
     </div>
   );
 };
