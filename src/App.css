@@ -6,31 +6,42 @@
 body {
   background-color: #000;
 }
-.App {
-  margin: 3rem 0 0 8rem;
+
+.page_container {
+  border: 1px solid #fff;
+  padding: 2rem;
 }
-.btn__container {
-  margin-left: 2rem;
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
 }
-.buttons__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 40%;
+.image__container {
+  width: 400px;
+  height: 500px;
   border: 1px solid #ccc;
-  padding: 3rem;
 }
+.button__container {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+
 #space {
   margin: 1rem;
 }
 h2 {
-  margin-top: 3rem;
   color: #ccc;
 }
 h1 {
   color: #ccc;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .icons {
-  color: #000;
+  color: #fff;
   background-color: #2281da;
   padding: 1rem 2rem;
   cursor: pointer;
