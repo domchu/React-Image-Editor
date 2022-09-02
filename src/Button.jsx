@@ -15,6 +15,7 @@ const Button = () => {
         <ButtonDetail name="Blur" />
       </div>
       <SliderRange />
+
       {/* <RotateFlip /> */}
     </div>
   );

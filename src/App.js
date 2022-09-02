@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./Button";
+import ButtonDetail from "./ButtonDetail";
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
         <div className="image__container">
           <h1>image</h1>
         </div>
+      </div>
+      <div className="images__button__container">
+        <ButtonDetail name="RESET FILTER" />
+        <ButtonDetail name="CHOOSE IMAGE" />
+        <ButtonDetail name="SAVE IMAGE" />
       </div>
     </div>
   );
