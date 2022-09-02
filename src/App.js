@@ -34,8 +34,8 @@ const DEFAULT_OPTIONS = [
     unit: "%",
   },
   {
-    name: "Saturation",
-    property: "saturate",
+    name: "Sepia",
+    property: "sepia",
     value: 100,
     Range: {
       min: 0,
