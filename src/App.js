@@ -2,6 +2,19 @@ import "./App.css";
 import Button from "./Button";
 import ButtonDetail from "./ButtonDetail";
 
+const DEFAULT_OPTIONS = [
+  {
+    name: "brightness",
+    property: "brightness",
+    value: 100,
+    Range: {
+      min: 0,
+      max: 200,
+    },
+    unit: "%",
+  },
+];
+
 function App() {
   return (
     <div className="page_container">
