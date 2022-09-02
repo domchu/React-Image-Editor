@@ -4,8 +4,18 @@ import ButtonDetail from "./ButtonDetail";
 
 const DEFAULT_OPTIONS = [
   {
-    name: "brightness",
-    property: "brightness",
+    name: "Brightness",
+    property: "Brightness",
+    value: 100,
+    Range: {
+      min: 0,
+      max: 200,
+    },
+    unit: "%",
+  },
+  {
+    name: "Contrast",
+    property: "Constrast",
     value: 100,
     Range: {
       min: 0,
