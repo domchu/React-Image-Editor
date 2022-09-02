@@ -5,7 +5,7 @@ import RotateFlip from "./RotateFlip";
 const Button = () => {
   return (
     <div>
-      <div className="buttons__container">
+      <div className="btn">
         <ButtonDetail name="brightness" />
         <ButtonDetail name="Saturation" />
         <ButtonDetail name="Inversion" />

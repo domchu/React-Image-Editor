@@ -13,7 +13,7 @@ body {
 }
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 2rem;
   width: 100%;
 }
@@ -21,11 +21,20 @@ body {
   width: 400px;
   height: 500px;
   border: 1px solid #ccc;
+  margin-left: 1rem;
 }
 .button__container {
   width: 400px;
   height: 500px;
   border: 1px solid #ccc;
+  margin-right: 1rem;
+}
+.rotate__container {
+  margin-top: 1rem;
+}
+.btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #space {
