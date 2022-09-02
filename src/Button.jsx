@@ -13,6 +13,8 @@ const Button = () => {
         <ButtonDetail name="Inversion" />
         <ButtonDetail name="grayscale" />
         <ButtonDetail name="Blur" />
+        <ButtonDetail name="Hue Rotate" />
+        <ButtonDetail name="Sepia" />
       </div>
       <SliderRange />
 
