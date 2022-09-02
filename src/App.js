@@ -5,7 +5,7 @@ import ButtonDetail from "./ButtonDetail";
 const DEFAULT_OPTIONS = [
   {
     name: "Brightness",
-    property: "Brightness",
+    property: "brightness",
     value: 100,
     Range: {
       min: 0,
@@ -15,7 +15,7 @@ const DEFAULT_OPTIONS = [
   },
   {
     name: "Contrast",
-    property: "Constrast",
+    property: "constrast",
     value: 100,
     Range: {
       min: 0,
@@ -30,6 +30,26 @@ const DEFAULT_OPTIONS = [
     Range: {
       min: 0,
       max: 200,
+    },
+    unit: "%",
+  },
+  {
+    name: "Saturation",
+    property: "saturate",
+    value: 100,
+    Range: {
+      min: 0,
+      max: 200,
+    },
+    unit: "%",
+  },
+  {
+    name: "Grayscale",
+    property: "grayscale",
+    value: 0,
+    Range: {
+      min: 0,
+      max: 100,
     },
     unit: "%",
   },
