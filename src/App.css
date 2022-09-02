@@ -12,16 +12,14 @@ body {
   padding: 2rem;
 }
 .container {
+  /* display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem; */
+
   display: flex;
   justify-content: center;
   margin-top: 2rem;
   width: 100%;
-}
-.image__container {
-  width: 400px;
-  height: 500px;
-  border: 1px solid #ccc;
-  margin-left: 1rem;
 }
 .button__container {
   width: 400px;
@@ -29,12 +27,22 @@ body {
   border: 1px solid #ccc;
   margin-right: 1rem;
 }
+.image__container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+}
 .rotate__container {
   margin-top: 1rem;
 }
 .btn {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.slider {
+  width: 80%;
+  cursor: pointer;
+  margin-left: 2rem;
 }
 
 #space {

@@ -11,8 +11,8 @@ const Button = () => {
         <ButtonDetail name="Saturation" />
         <ButtonDetail name="Inversion" />
         <ButtonDetail name="grayscale" />
-        <SliderRange />
       </div>
+      <SliderRange />
       {/* <RotateFlip /> */}
     </div>
   );
