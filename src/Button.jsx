@@ -16,7 +16,7 @@ const Button = () => {
       </div>
       <SliderRange />
 
-      {/* <RotateFlip /> */}
+      <RotateFlip />
     </div>
   );
 };
