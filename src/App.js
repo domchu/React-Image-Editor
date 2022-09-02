@@ -15,9 +15,11 @@ function App() {
         </div>
       </div>
       <div className="images__button__container">
-        <ButtonDetail name="RESET FILTER" />
-        <ButtonDetail name="CHOOSE IMAGE" />
-        <ButtonDetail name="SAVE IMAGE" />
+        <ButtonDetail name="RESET FILTER" className="reset__filter" />
+        <div className="image__side">
+          <input type="file" value="" />
+          <ButtonDetail name="SAVE IMAGE" />
+        </div>
       </div>
     </div>
   );

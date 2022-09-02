@@ -31,6 +31,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.image__side {
+  display: flex;
+  margin-left: 10rem;
+}
 .image__container {
   width: 500px;
   height: 500px;
@@ -38,6 +42,9 @@ body {
 }
 .rotate__container {
   margin-top: 1rem;
+}
+.reset__filter {
+  margin-right: 5rem;
 }
 .btn {
   display: grid;
