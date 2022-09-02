@@ -53,6 +53,16 @@ const DEFAULT_OPTIONS = [
     },
     unit: "%",
   },
+  {
+    name: "Hue Rotate",
+    property: "hue-rotate",
+    value: 0,
+    Range: {
+      min: 0,
+      max: 360,
+    },
+    unit: "deg",
+  },
 ];
 
 function App() {
