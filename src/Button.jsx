@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonDetail from "./ButtonDetail";
 import RotateFlip from "./RotateFlip";
+import SliderRange from "./SliderRange";
 
 const Button = () => {
   return (
@@ -10,8 +11,9 @@ const Button = () => {
         <ButtonDetail name="Saturation" />
         <ButtonDetail name="Inversion" />
         <ButtonDetail name="grayscale" />
-        <RotateFlip />
+        <SliderRange />
       </div>
+      {/* <RotateFlip /> */}
     </div>
   );
 };
