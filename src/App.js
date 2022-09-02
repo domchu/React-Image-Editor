@@ -23,6 +23,16 @@ const DEFAULT_OPTIONS = [
     },
     unit: "%",
   },
+  {
+    name: "Saturation",
+    property: "Saturate",
+    value: 100,
+    Range: {
+      min: 0,
+      max: 200,
+    },
+    unit: "%",
+  },
 ];
 
 function App() {
