@@ -29,7 +29,7 @@ body {
 }
 .image__side {
   display: flex;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 .image__container {
   width: 500px;
@@ -55,6 +55,15 @@ body {
   cursor: pointer;
   margin-left: 2rem;
   margin-top: 1rem;
+}
+.image__side input {
+  padding: 7px;
+  margin-top: 1rem;
+  background-color: #2281da;
+  align-items: center;
+  border-radius: 5px;
+  color: #ccc;
+  cursor: pointer;
 }
 
 #space {
