@@ -1,9 +1,11 @@
+import React, { useState } from "react";
 import "./App.css";
 import Button from "./Button";
 import ButtonDetail from "./ButtonDetail";
 import FilterProps from "./FilterProps";
 
 function App() {
+  const [options, setOptions] = useState(DEFAULT_OPTIONS);
   return (
     <div className="page_container">
       <h1>Image Editor</h1>
