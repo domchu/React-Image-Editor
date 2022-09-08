@@ -77,13 +77,16 @@ const DEFAULT_OPTIONS = [
 ];
 
 function App() {
-  const [options, setOptions] = useState("");
+  const [options, setOptions] = useState(DEFAULT_OPTIONS);
+
   return (
     <div className="page_container">
       <h1>Image Editor</h1>
       <div className="container">
         <div className="button__container">
-          <Button />
+          {options.map((option, index) => {
+            return <Button key={index} name={option.name} />;
+          })}
         </div>
         <div className="image__container">
           <h1>image</h1>
