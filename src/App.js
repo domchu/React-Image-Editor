@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Button from "./Button";
 import ButtonDetail from "./ButtonDetail";
-// import DEFAULT_OPTIONS from "./DefaultOptions";
-// import FilterProps from "./FilterProps";
 
 const DEFAULT_OPTIONS = [
   {
